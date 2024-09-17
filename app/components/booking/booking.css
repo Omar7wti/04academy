@@ -1,0 +1,125 @@
+.box{
+    margin: 20px 0px;
+    cursor: pointer;
+    height: 93px;
+    width: 262px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    div{
+        background-color: white;
+        width: 85px;
+        margin: 1px;
+        padding: 10px 5px;
+        color: #D0D1DB;
+    }
+    div:hover{
+        border: 1px solid #0056b3;
+    }
+}
+.discount{
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.info-row span:first-child {
+  color: #C2C7D5;
+}
+
+.info-row span:last-child {
+  text-align: right;
+}
+.green{
+  color : green  ;
+}
+.purple{
+  color : #5668EE ;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+    margin-right: 5px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 17px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .terms{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 20px 0px;
+    input {
+      margin-right: 10px;
+    }
+    p{
+      color :#C5C7D5;
+      font-size: 12px;
+    }
+    a{
+      color: #73B5FC;
+    }
+  }

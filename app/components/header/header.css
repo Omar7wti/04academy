@@ -1,0 +1,9 @@
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    .dropdown{
+        width: 200px;
+        margin: 20px 10px;
+    }
+}

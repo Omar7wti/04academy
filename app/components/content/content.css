@@ -1,0 +1,50 @@
+.container {
+  background-color: #f9fcff;
+  padding: 60px 300px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.details {
+  width: 66%;
+  background-color: white;
+  padding: 20px 40px;
+}
+
+.booking {
+  width: 33%;
+  background-color: #f5f7f9;
+  padding: 20px;
+}
+
+.inputs label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inputs input, .inputs select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #F5F7F9
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
